@@ -35,4 +35,4 @@ yarn-error.log*
 
 output.js
 output.css
-.storybook
+storybook-static
