@@ -1,5 +1,6 @@
 import { useState } from "react";
 import React from "react";
+import "../styles/tailwind.css";
 export default function Exercise(props) {
   const [hidden, setHidden] = useState(true);
   return (

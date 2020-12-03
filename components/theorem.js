@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/tailwind.css";
 function Theorem(props) {
   return (
     <div className="bg-clip-border bg-gradient-to-r from-orange-300 via-green-300 to-purple-300 py-2 mx-2 rounded">

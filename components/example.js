@@ -1,5 +1,6 @@
 import { useState } from "react";
 import React from "react";
+import "../styles/tailwind.css";
 export default function Example(props) {
   const [toggle, setToggle] = useState(false);
   return (

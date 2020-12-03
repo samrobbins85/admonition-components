@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/tailwind.css";
 export default function problem(props) {
   return (
     <div className="border border-teal-600 rounded p-4 mx-2 my-6 bg-teal-200">

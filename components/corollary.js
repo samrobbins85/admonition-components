@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/tailwind.css";
 export default function corollary(props) {
   return (
     <div className="border border-orange-400 rounded p-4 mx-2 my-6 bg-orange-200">
