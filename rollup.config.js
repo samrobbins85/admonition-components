@@ -22,6 +22,9 @@ export default {
       },
       extensions: [".css"],
       minimize: true,
+      inject: {
+        insertAt: "top",
+      },
     }),
   ],
 };
