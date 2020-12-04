@@ -8,12 +8,15 @@ export default function Exercise(props) {
       {props.children.length ? (
         <>
           {props.children.filter(
-            (child) => child.props.originalType.name === "Question"
+            (child) =>
+              child.props.mdxType === "Question" ||
+              child.type.name === "Question"
           )}
 
           <div className={hidden ? "hidden" : ""}>
             {props.children.filter(
-              (child) => child.props.originalType.name === "Answer"
+              (child) =>
+                child.props.mdxType === "Answer" || child.type.name === "Answer"
             )}
           </div>
         </>
@@ -48,3 +51,7 @@ export default function Exercise(props) {
     </div>
   );
 }
+
+// {
+//   props.children.filter((child) => child.type.name === "Question");
+// }

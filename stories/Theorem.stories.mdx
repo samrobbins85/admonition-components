@@ -1,0 +1,10 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
+import Theorem from "../components/theorem";
+
+<Meta title="Theorem" component={Theorem} />
+
+export const Template = (args) => <Theorem {...args} />;
+
+<Story name="Primary" args={{ name: "Test", children: "Instance" }}>
+  {Template.bind({})}
+</Story>
