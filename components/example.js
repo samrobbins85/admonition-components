@@ -9,6 +9,7 @@ export default function Example(props) {
         <button
           className="inline-block mr-4"
           onClick={() => setToggle(!toggle)}
+          aria-label="Expand"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

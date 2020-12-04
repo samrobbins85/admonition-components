@@ -6,11 +6,19 @@ export default {
   component: Exercise,
   subcomponents: { Question },
   title: "Exercise",
+  args: { children: "Hello" },
+  decorators: [
+    (Story) => (
+      <div className="w-1/2 mx-auto">
+        <Story />
+      </div>
+    ),
+  ],
 };
 
-export const OneItem = (args) => (
-  <Exercise {...args}>
-    <Question>Hello</Question>
-    <Answer>World</Answer>
+export const Example = (args) => (
+  <Exercise>
+    <Question {...args} />
+    <Answer {...args} />
   </Exercise>
 );
