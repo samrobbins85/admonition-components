@@ -1,0 +1,17 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
+import Problem from "../components/problem";
+
+<Meta title="Problem" component={Problem} />
+
+export const Template = (args) => <Problem {...args} />;
+
+# Problem
+
+This is used for decision problems
+
+<Story
+  name="Primary"
+  args={{ name: "Test", instance: "Instance", question: "Question" }}
+>
+  {Template.bind({})}
+</Story>

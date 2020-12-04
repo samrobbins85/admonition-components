@@ -1,0 +1,10 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
+import Corollary from "../components/corollary";
+
+<Meta title="Corollary" component={Corollary} />
+
+export const Template = (args) => <Corollary {...args} />;
+
+<Story name="Primary" args={{ name: "Test", children: "Instance" }}>
+  {Template.bind({})}
+</Story>
