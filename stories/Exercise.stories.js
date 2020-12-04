@@ -6,7 +6,7 @@ export default {
   component: Exercise,
   subcomponents: { Question },
   title: "Exercise",
-  args: { children: "Hello" },
+  args: { question: "Hello", answer: "World" },
   decorators: [
     (Story) => (
       <div className="w-1/2 mx-auto">
@@ -16,9 +16,9 @@ export default {
   ],
 };
 
-export const Example = (args) => (
+export const Example = ({ question, answer }) => (
   <Exercise>
-    <Question {...args} />
-    <Answer {...args} />
+    <Question>{question}</Question>
+    <Answer> {answer} </Answer>
   </Exercise>
 );
