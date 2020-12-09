@@ -5,7 +5,7 @@ export default {
   input: "./index.js",
   output: {
     file: "./output.js",
-    format: "esm",
+    format: "cjs",
   },
   external: ["react", "react-dom"],
   plugins: [
