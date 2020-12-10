@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/samrobbins85/admonition-components.git"
   },
+  "resolutions": {
+    "postcss": "8.x.x"
+  },
   "author": "Sam Robbins",
   "license": "MIT",
   "bugs": {
@@ -19,29 +22,29 @@
   },
   "homepage": "https://github.com/samrobbins85/admonition-components#readme",
   "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "@babel/preset-env": "^7.12.7",
-    "@babel/preset-react": "^7.12.7",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
     "@rollup/plugin-babel": "^5.2.2",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "@storybook/addon-a11y": "^6.1.10",
-    "@storybook/addon-actions": "^6.1.9",
-    "@storybook/addon-essentials": "^6.1.9",
-    "@storybook/addon-links": "^6.1.9",
-    "@storybook/react": "^6.1.9",
+    "@storybook/addon-actions": "^6.1.10",
+    "@storybook/addon-essentials": "^6.1.10",
+    "@storybook/addon-links": "^6.1.10",
+    "@storybook/react": "^6.1.10",
     "babel-loader": "^8.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "rollup": "^2.34.0",
-    "rollup-plugin-postcss": "^3.1.8"
+    "rollup": "^2.34.2",
+    "rollup-plugin-postcss": "^4.0.0"
   },
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "dependencies": {
-    "autoprefixer": "^9.8.6",
-    "postcss": "^7.0.35",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.1"
   }
 }
