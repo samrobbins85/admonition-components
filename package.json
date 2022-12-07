@@ -33,7 +33,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "rollup": "^2.34.0",
-    "rollup-plugin-postcss": "^3.1.8"
+    "rollup-plugin-postcss": "^4.0.2"
   },
   "peerDependencies": {
     "react": "^17.0.1",
