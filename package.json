@@ -32,7 +32,7 @@
     "babel-loader": "^8.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "rollup": "^2.34.0",
+    "rollup": "^3.29.5",
     "rollup-plugin-postcss": "^3.1.8"
   },
   "peerDependencies": {
